@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import 'core/constants/app_strings.dart';
+import 'core/theme/app_theme.dart';
 import 'core/di/service_locator.dart';
 import 'core/routing/app_router.dart';
 import 'core/routing/app_routes.dart';
-import 'core/theme/app_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'core/constants/app_strings.dart';
 import 'features/home/presentation/controllers/home_controller.dart';
 import 'features/onboarding/presentation/controllers/onboarding_controller.dart';
 

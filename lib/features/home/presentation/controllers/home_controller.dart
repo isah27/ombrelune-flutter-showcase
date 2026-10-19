@@ -1,13 +1,12 @@
 import 'package:flutter/foundation.dart';
-
 import '../../domain/entities/product.dart';
 import '../../domain/entities/product_category.dart';
 import '../../domain/repositories/product_repository.dart';
 
 class HomeController extends ChangeNotifier {
-  HomeController({required this._repository});
+  HomeController({required this.repository});
 
-  final ProductRepository _repository;
+  final ProductRepository repository;
 
   List<Product> _all = const <Product>[];
   List<Product> _visible = const <Product>[];
@@ -23,7 +22,7 @@ class HomeController extends ChangeNotifier {
   Future<void> load() async {
     _loading = true;
     notifyListeners();
-    _all = await _repository.fetchProducts();
+    _all = await repository.fetchProducts();
     _loading = false;
     _apply();
   }

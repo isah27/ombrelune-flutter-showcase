@@ -1,6 +1,6 @@
 # OMBRELUNE · Maison de Parfum
 
-Nightly Flutter showcase #1 (2026-10-18). **OMBRELUNE** is a *fictional* luxury fragrance house, "the shadow of the moon". Its world is smoked-amber glass, brushed champagne gold and obsidian stone, shot like a midnight perfume ad. It is not a real brand, and all imagery is AI-generated.
+Nightly Flutter showcase #1 (2026-10-18). **OMBRELUNE** is a *fictional* luxury fragrance house, "the shadow of the moon". Its world is smoked-amber glass, brushed champagne gold and obsidian stone, shot like a midnight perfume ad. It is not a real brand.
 
 | Onboarding 1 | Onboarding 2 | Onboarding 3 | Home | Grid |
 |---|---|---|---|---|

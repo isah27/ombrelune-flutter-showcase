@@ -5,7 +5,7 @@ abstract final class AppSizes {
   static const double indicatorActive = 28;
   static const double bannerHeight = 180;
   static const double chipHeight = 40;
-  static const double gridAspect = 0.52;
+  static const double gridAspect = 0.51;
   static const int gridColumns = 2;
   static const double cardImageAspect = 3 / 4;
   static const double pressedScale = 0.96;
